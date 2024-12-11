@@ -68,7 +68,7 @@ export default function SearchDialog() {
 
                     {/* Heading  */}
                     <div className=" text-center">
-                        <h1 className=" text-gray-600">Powered By Devknus</h1>
+                        <h1 className=" text-gray-600">Search for blogs.</h1>
                     </div>
                 </DialogBody>
             </Dialog>

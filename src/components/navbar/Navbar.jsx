@@ -57,7 +57,7 @@ export default function Nav() {
                 style={{ color: mode === 'dark' ? 'white' : 'white' }}
             >
                 <Link to={'/adminlogin'} className="flex items-center">
-                    Admin Login
+                    Login
                 </Link>
             </Typography>
         </ul>
@@ -87,7 +87,7 @@ export default function Nav() {
                             />
                             {/* Logo Text  */}
                             <span>
-                                Devknus
+                                Blog
                             </span>
                         </Typography>
                     </Link>
