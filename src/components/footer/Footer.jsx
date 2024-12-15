@@ -12,7 +12,7 @@ function Footer() {
                 <div className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                     {/* logo  */}
                     <img className='w-10'
-                        src="https://cdn-icons-png.flaticon.com/128/3685/3685253.png" alt="logo"
+                        src="src/img/blog.png" alt="logo"
                     />
                     {/* logo text  */}
                     <span className="ml-3 text-xl text-white">
