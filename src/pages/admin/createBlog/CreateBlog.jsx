@@ -188,6 +188,7 @@ function CreateBlog() {
                 {/* Four Editor  */}
                 <Editor
                     apiKey='hfboejc8c5g1tkzt0apxsvzdmyf5pz7e2l8zhwthcwmz3kbw'
+
                     onEditorChange={(newValue, editor) => {
                         setBlogs({ ...blogs, content: newValue });
                         settext(editor.getContent({ format: 'text' }));
@@ -196,7 +197,8 @@ function CreateBlog() {
                         settext(editor.getContent({ format: 'text' }));
                     }}
                     init={{
-                        plugins: 'a11ychecker advcode advlist advtable anchor autocorrect autolink autoresize autosave casechange charmap checklist code codesample directionality editimage emoticons export footnotes formatpainter fullscreen help image importcss inlinecss insertdatetime link linkchecker lists media mediaembed mentions mergetags nonbreaking pagebreak pageembed permanentpen powerpaste preview quickbars save searchreplace table tableofcontents template  tinydrive tinymcespellchecker typography visualblocks visualchars wordcount'
+                        //plugins: 'a11ychecker advcode advlist advtable anchor autocorrect autolink autoresize autosave casechange charmap checklist code codesample directionality editimage emoticons export footnotes formatpainter fullscreen help image importcss inlinecss insertdatetime link linkchecker lists media mediaembed mentions mergetags nonbreaking pagebreak pageembed permanentpen powerpaste preview quickbars save searchreplace table tableofcontents template  tinydrive tinymcespellchecker typography visualblocks visualchars wordcount'
+                        plugins: 'advlist anchor autolink autoresize autosave charmap code codesample directionality emoticons fullscreen help image importcss insertdatetime link linkchecker lists media nonbreaking pagebreak preview quickbars save searchreplace table template  tinydrive visualblocks visualchars wordcount'
                     }}
                 />
 
